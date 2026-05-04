@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/StepFi-app/.github/raw/main/profile/banner.png" alt="StepFi Banner" />
+<img src="https://github.com/StepFi-app/.github/raw/main/profile/StepFi.png" alt="StepFi Banner" />
 
 # StepFi
 
