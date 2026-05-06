@@ -4,7 +4,7 @@
 
 # StepFi
 
-### Step into your future, pay small small. 🌍
+### Step into your future. Credit without banks. Progress without limits. 🌍
 
 **Open-source decentralized BNPL protocol on Stellar — built for learners, interns, and early-career developers in emerging markets.**
 
