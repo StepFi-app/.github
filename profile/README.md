@@ -40,6 +40,15 @@ StepFi lets learners finance what they need and repay in small installments — 
 
 ---
 
+## 🔗 Live Deployments
+
+| Resource | Link |
+|---|---|
+| API | https://stepfi-api.onrender.com/api/v1 |
+| Swagger | https://stepfi-api.onrender.com/api/v1/docs |
+| Creditline Contract | https://stellar.expert/explorer/testnet/contract/CCWFD2J2NQS56HFNPG2S4HUR2LBA3O7NDQCB35C5JD7EBQUZ63G3LBCP |
+| Reputation Contract | https://stellar.expert/explorer/testnet/contract/CC3BO57ZRJGA63QJBIBSOMI25Z3X2I5CYTARYRAUXUAILX6L3OWBL5SB |
+
 ## Repositories
 
 | Repo | Stack | Description |
