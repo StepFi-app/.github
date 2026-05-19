@@ -44,10 +44,17 @@ StepFi lets learners finance what they need and repay in small installments — 
 
 | Resource | Link |
 |---|---|
+| Landing Page | https://stepfi.vercel.app |
 | API | https://stepfi-api.onrender.com/api/v1 |
 | Swagger | https://stepfi-api.onrender.com/api/v1/docs |
-| Creditline Contract | https://stellar.expert/explorer/testnet/contract/CCWFD2J2NQS56HFNPG2S4HUR2LBA3O7NDQCB35C5JD7EBQUZ63G3LBCP |
+| Documentation | https://docs.page/StepFi-app/StepFi-Docs |
+| Demo | https://stepfi.vercel.app/demo |
+| Playground | https://stepfi.vercel.app/playground |
+| Creditline Contract | https://stellar.expert/explorer/testnet/contract/CAQDHYG3TALPNXG466SZUMJEPOI7VYV732LPFF3GHE4ASPBCNMIQBS3X |
 | Reputation Contract | https://stellar.expert/explorer/testnet/contract/CC3BO57ZRJGA63QJBIBSOMI25Z3X2I5CYTARYRAUXUAILX6L3OWBL5SB |
+| Liquidity Pool | https://stellar.expert/explorer/testnet/contract/CACKE7ML2BTOAGQTAAW5NEARHCFX4PXXKGEO6GMU6NHFBVYQFZRJS2BT |
+| Vendor Registry | https://stellar.expert/explorer/testnet/contract/CCZ6T6NYCDNI26VGTPXKKWQDR7JCIZZ24LCEG4MMYHZJAG6BPWIVAU2L |
+| Parameters | https://stellar.expert/explorer/testnet/contract/CCAE72SKYX55C5L56DBEFIMFVXRUIJY6JYLBREHEWRFNOW7AX5NBIJ5B |
 
 ## Repositories
 
@@ -69,6 +76,12 @@ Auth       →  Stellar wallet signature → JWT (no passwords)
 ```
 
 ---
+## Documentation
+
+The StepFi protocol documentation covers smart contract
+functions, API endpoints, authentication flows, reputation
+tiers, contributing guides, and the full system architecture.
+Built for developers who want to understand or contribute to the protocol. [View Docs]( https://docs.page/StepFi-app/StepFi-Docs)
 
 ## Contributing
 
