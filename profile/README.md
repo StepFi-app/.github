@@ -48,6 +48,7 @@ StepFi lets learners finance what they need and repay in small installments — 
 | API | https://stepfi-api.onrender.com/api/v1 |
 | Swagger | https://stepfi-api.onrender.com/api/v1/docs |
 | Documentation | https://docs.page/StepFi-app/StepFi-Docs |
+| StepFi-Web | https://stepfi-web.netlify.app |
 | Demo | https://stepfi.vercel.app/demo |
 | Playground | https://stepfi.vercel.app/playground |
 | Creditline Contract | https://stellar.expert/explorer/testnet/contract/CAQDHYG3TALPNXG466SZUMJEPOI7VYV732LPFF3GHE4ASPBCNMIQBS3X |
@@ -63,6 +64,8 @@ StepFi lets learners finance what they need and repay in small installments — 
 | [StepFi-API](https://github.com/StepFi-app/StepFi-API) | NestJS · Fastify · TypeScript | Off-chain orchestration — auth, loans, reputation, background jobs |
 | [StepFi-Contracts](https://github.com/StepFi-app/StepFi-Contracts) | Rust · Soroban SDK | On-chain smart contracts — credit line, reputation, liquidity pool, vendor registry |
 | [StepFi-App](https://github.com/StepFi-app/StepFi-App) | React Native · Expo · TypeScript | Mobile application — learner and sponsor interfaces |
+| [StepFi-Web](https://github.com/StepFi-app/StepFi-Web) | Vite · React · TypeScript | Web app for sponsors, vendors, and mentors |
+| [StepFi-Docs](https://github.com/StepFi-app/StepFi-Docs) | docs.page | Protocol documentation and developer guides |
 
 ---
 
