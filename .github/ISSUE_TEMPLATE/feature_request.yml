@@ -1,0 +1,48 @@
+name: ✨ Feature / enhancement
+description: Propose new functionality or an improvement in a StepFi repository.
+title: "feat: <short imperative summary>"
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Target repository
+      options:
+        - StepFi-Contracts (Soroban / Rust)
+        - StepFi-API (NestJS / Supabase)
+        - StepFi-Web (React / Vite)
+        - StepFi-App (Expo / React Native)
+        - StepFi-Docs
+        - Cross-cutting
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+      description: What user or system problem does this solve? Link to the roadmap item if one exists.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the change concretely — files, functions, endpoints, or screens involved.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: A checklist a reviewer can verify. Be explicit and testable.
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
