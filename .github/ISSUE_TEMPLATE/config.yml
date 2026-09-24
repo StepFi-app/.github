@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔐 Report a security vulnerability
+    url: https://github.com/StepFi-app/.github/blob/main/SECURITY.md
+    about: Never open a public issue for a vulnerability. Follow our disclosure policy and report privately.
+  - name: 💬 Questions, ideas & support
+    url: https://github.com/StepFi-app/.github/blob/main/SUPPORT.md
+    about: Ask questions, request help, or start a discussion here — not in the issue tracker.

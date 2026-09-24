@@ -1,0 +1,74 @@
+name: 🐛 Bug report
+description: Report a defect in a StepFi repository. For security issues, use the private policy instead.
+title: "fix: <short imperative summary>"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. A complete, reproducible report gets fixed far faster.
+        **Do not report security vulnerabilities here** — follow [SECURITY.md](https://github.com/StepFi-app/.github/blob/main/SECURITY.md).
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Affected repository
+      options:
+        - StepFi-Contracts (Soroban / Rust)
+        - StepFi-API (NestJS / Supabase)
+        - StepFi-Web (React / Vite)
+        - StepFi-App (Expo / React Native)
+        - StepFi-Docs
+        - Not sure / cross-cutting
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Exact, numbered steps. Include commands, inputs, and any relevant XDR/tx hashes or request payloads.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, runtime/toolchain versions (node, rust, expo), network (testnet/mainnet), branch/commit.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - critical — funds at risk, data loss, or production down
+        - high — core flow broken, no safe workaround
+        - medium — degraded behavior with a workaround
+        - low — cosmetic or minor
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: This is NOT a security vulnerability (those go through SECURITY.md).
+          required: true
