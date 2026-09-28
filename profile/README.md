@@ -40,6 +40,18 @@ StepFi lets learners finance what they need and repay in small installments — 
 
 ---
 
+## 🏗️ System Architecture
+
+StepFi is one protocol split across six repositories — clients, a backend, and on-chain contracts that settle every loan, repayment, and reputation change on Stellar.
+
+<div align="center">
+
+<img src="https://github.com/StepFi-app/.github/raw/main/profile/architecture.svg" alt="StepFi system architecture" width="900" />
+
+</div>
+
+---
+
 ## 🔗 Live Deployments
 
 | Resource | Link |
